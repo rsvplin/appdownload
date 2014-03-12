@@ -1,0 +1,105 @@
+
+.color-black {
+    color: #000000;
+}
+.color-brown {
+    color: #AE8C54;
+}
+.gf-orange {
+    color: #E88A43;
+}
+body {
+    background-image: url("pic/bg.png");
+    font-family: "Open Sans",Calibri,Candara,Arial,sans-serif;
+    font-size: 14px;
+}
+h1 {
+    color: #E88A43;
+}
+h2 {
+    color: #7F7F7F;
+}
+h3 {
+    color: #7F7F7F;
+}
+p.reference {
+    font-size: 12px;
+    line-height: 12px;
+    width: 180px;
+}
+hr.reference {
+    margin: 6px 0;
+    width: 180px;
+}
+img.reference {
+    border: 0 none;
+    display: block;
+    margin-top: 0;
+    width: 90px;
+}
+.project-site.page-index img[alt="stack"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-site.page-index h2[id]:before {
+    height: 30px;
+    margin-top: -30px;
+}
+.project-site.page-contribute h2[id]:before {
+    height: 30px;
+    margin-top: -30px;
+}
+a:hover {
+    color: #0088CC;
+}
+.project-site.page-index a.headerlink:link {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+.project-site.page-index a.headerlink:visited {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+.project-site.page-index a.headerlink:hover {
+    color: #0088CC;
+    text-decoration: none;
+}
+.project-site.page-index a.headerlink:active {
+    color: #0088CC;
+    text-decoration: none;
+}
+.project-site.page-contribute a.headerlink:link {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+.project-site.page-contribute a.headerlink:visited {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+.project-site.page-contribute a.headerlink:hover {
+    color: #0088CC;
+    text-decoration: none;
+}
+.project-site.page-contribute a.headerlink:active {
+    color: #0088CC;
+    text-decoration: none;
+}
+.thumbnail .caption {
+    color: #000000;
+}
+code, pre {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    color: #646464;
+    display: block;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 0 10px;
+    padding: 9.5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}

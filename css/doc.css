@@ -1,0 +1,100 @@
+
+body {
+    padding-top: 40px;
+    position: relative;
+}
+h3 code {
+    font-size: 14px;
+    font-weight: normal;
+}
+.jumbotron {
+    padding: 40px 0;
+    position: relative;
+}
+.jumbotron h1 {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+.jumbotron p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.jumbotron .btn-large {
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 10px;
+    padding: 14px 24px;
+}
+.jumbotron .btn-large small {
+    font-size: 14px;
+}
+.subhead {
+    margin-bottom: 9px;
+    padding-bottom: 0;
+}
+.subhead h1 {
+    font-size: 54px;
+}
+@media (max-width: 480px) {
+body {
+    padding-top: 70px;
+}
+.jumbotron h1, .jumbotron p {
+    margin-right: 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 45px;
+    margin-right: 0;
+}
+.jumbotron p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.jumbotron .btn {
+    display: block;
+    font-size: 18px;
+    margin: 0 auto 10px;
+    padding: 10px 14px;
+}
+}
+@media (max-width: 768px) {
+body {
+    padding-top: 0;
+}
+.jumbotron .btn {
+    margin-bottom: 10px;
+}
+}
+@media (min-width: 480px) and (max-width: 768px) {
+.jumbotron h1 {
+    font-size: 54px;
+}
+.jumbotron p {
+    margin-left: 0;
+    margin-right: 0;
+}
+}
+@media (min-width: 768px) and (max-width: 980px) {
+body {
+    padding-top: 0;
+}
+.jumbotron h1 {
+    font-size: 72px;
+}
+}
+@media (max-width: 980px) {
+.navbar-fixed-top .brand {
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
